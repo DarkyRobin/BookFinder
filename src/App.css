@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+}
+
+.book-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-item h3 {
+  font-size: 1.2em;
+}
+
+.book-item p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.book-item a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book-item a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
